@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/carrousell.css" rel="stylesheet" />
     </head>
     <body id="page-top" class="bg-light">
         <!-- Navigation-->
@@ -29,7 +30,9 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Acerca de Nosotros</a></li>
 						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Experts">Nuestros Expertos</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Programas de Entrenamiento</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Gallery">Testimonios</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Contact">Contacto</a></li>
+
                     </ul>
                 </div>
             </div>
@@ -65,7 +68,7 @@
 		
 		<!-- Expertos -->
 		<section class="projects-section bg-light" id="Experts">
-		<div class="container">
+		    <div class="container">
                 <h2 class="display-4">Da el comienzo a una nueva vida: <br><center>¡Te presetamos a tus guías!</center></h2>
 				<br/>
 				<div class="row align-items-center no-gutters mb-0">
@@ -157,6 +160,83 @@
             </div>
         </section>
 
+        <!--Gallery-->
+        <section class="projects-section bg-light" id="Gallery">
+            <div class="container">
+                <h2 class="display-4">Nuestros Alumnos</h2>
+                <!-- Carousel wrapper -->
+                <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+                    <!-- Indicators -->
+                    <div class="carousel-indicators">
+                        <li data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active"></li>
+                        <li data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1"></li>
+                        <li data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2"></li>
+                        <li data-mdb-target="#carouselBasicExample" data-mdb-slide-to="3"></li>
+                        <li data-mdb-target="#carouselBasicExample" data-mdb-slide-to="4"></li>
+                        <li data-mdb-target="#carouselBasicExample" data-mdb-slide-to="5"></li>
+                    </div>
+                
+                    <!-- Inner -->
+                    <div class="carousel-inner">
+                        <!-- Single item -->
+                        <div class="carousel-item active">
+                            <img src="assets/img/gallery/Desfile1.jpeg" class="d-block w-100" alt="..."/>
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </div>
+                        </div>
+                    
+                        <!-- Single item -->
+                        <div class="carousel-item">
+                            <img src="assets/img/gallery/Desfile2.jpeg" class="d-block w-100" alt="..."/>
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    
+                        <!-- Single item -->
+                        <div class="carousel-item">
+                            <img src="assets/img/gallery/Alumnos1.jpeg" class="d-block w-100" alt="..."/>
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </div>
+                        </div>
+                        <!-- Single item -->
+                        <div class="carousel-item">
+                            <img src="assets/img/gallery/Meditacion.jpeg" class="d-block w-100" alt="..."/>
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </div>
+                        </div>
+                        <!-- Single item -->
+                        <div class="carousel-item">
+                            <img src="assets/img/gallery/Sanda1.jpeg" class="d-block w-100" alt="..."/>
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Inner -->
+                
+                    <!-- Controls -->
+                    <a class="carousel-control-prev" href="#carouselBasicExample" role="button" data-mdb-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselBasicExample" role="button" data-mdb-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+                <!-- Carousel wrapper -->
+            </div>
+        </section>
+
         <!-- Contacto-->
         <section class="signup-section contact-section bg-black" id="Contact">
 			<div class="container">
@@ -212,7 +292,8 @@
 
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © El Tornado Negro Kung-Fu 2023</div></footer>
-        <!-- Bootstrap core JS-->
+        <!-- Bootstrap core JS-->        
+        <script src="js/mdb.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->

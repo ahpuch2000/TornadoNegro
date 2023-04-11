@@ -10208,6 +10208,12 @@ body {
   border: 0;
 }
 
+.customcontent {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .masthead {
   position: relative;
   width: 100%;

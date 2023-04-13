@@ -10298,7 +10298,7 @@ body {
 }
 
 .signup-section {
-  padding: 5rem 0;
+  padding: 6rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -10365,4 +10365,10 @@ body {
 	padding-bottom: 5px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 2.5rem;
+}
+
+.peopleCarouselImg img {
+  width: auto;
+  height: 700px;
+  max-height: 700px;
 }

@@ -10372,3 +10372,17 @@ body {
   height: 700px;
   max-height: 700px;
 }
+video {
+   position: relative;
+   width: 100%;
+   height: auto;
+   min-height: 35rem;
+  /*position: relative;
+  opacity: 0.8;
+  left: 0px;
+  top: 0px;
+  height: auto;
+  width: 100%;
+  height: 100%;*/
+  z-index: 1;
+}
